@@ -1,0 +1,186 @@
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Arima Madurai' rel='stylesheet'>
+<meta charset="UTF-8">
+<title>MY PROFILE</title>
+</head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #00ffdd;
+overflow: hidden;
+   --> position: fixed;
+    top: 0;
+    width: 100%;
+ 
+    -->border: 1px solid #294134;
+   
+
+} 
+
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    -->display: inline;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+text-align: center;
+     -->border: 1px solid #294134;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+.active1 {
+    background-color: #DA2A0B;
+    color: white;
+}
+.active2{ 
+    background-color: #056BAE;
+    color: white;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("2.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.footer {
+   -->position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 40%;
+   background-color: #F2F2F2;
+   color: black;
+   text-align: center;
+}
+
+
+</style>
+<body>
+<div class="parallax">
+<ul>
+  <li><a href="#default.asp">Home</a></li>
+  
+  <li><a href="#contact.asp">Contact us</a></li>
+  <li><a href="#about.asp">About Us</a></li>
+  <li style="float:right"><a class="active1" href="signup.html">Signup</a></li>
+  <li style="float:right"><a class="active2" href="#about">Login</a></li>
+</ul>
+<img src="1.jpg" height="50">
+</div>
+<div style="height:100px;background-color:white ; font-size:76px ; text-align: center">
+Membership
+</div>
+
+
+<div style="text-align:center">
+    <span style="float:left ; font-size:46px"><img src="9.png"  height="100"><br> Notes & PDF</span>
+    <span style="float:right ; font-size:46px"><img src="8.png"  height="100"><br>College Updates</span>
+</div>
+
+<div style="height:100px;background-color:white ; font-size:46px ; text-align: center">
+<img src="7.png"  height="100"><br>
+Book Tutor
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<div style="text-align:center">
+    <span style="float:left ; font-size:46px"><img src="11.png"  height="100"><br> Work Done </span>
+    <span style="float:right ; font-size:46px"><img src="12.png"  height="100"><br>College Talks</span>
+</div>
+
+<div style="height:100px;background-color:white ; font-size:46px ; text-align: center">
+<img src="10.png"  height="100"><br>
+College Clubs
+</div>
+<br>
+<br>
+<br>
+<br>
+<img src="14.jpg"   width="100%" height="200">
+<br>
+<br>
+
+<div style="color:Black ; font-size:18px;  text-align: justify ; background-color:#B9D370 ;  margin: auto;  width: 45% ; height: 55%; padding: 10px; ">
+The cosmos is an orderly system, the opposite of chaos. We at Kosmeo<br> 
+bring to you a universe of services along with a plethora of courses<br>
+ to enhance your skill sets and expand your knowledge. Our main motive<br>
+ lies in using the powerful tool of technology in an efficient manner for<br> 
+the greater good of people. Our variety is our specialty that sets us apart.<br>
+ Our services range from academics to event management giving rise to our main<br> 
+areas of focus such us - UI/UX , Photography, Marketing, App Dev, Web Dev,<br>
+Event Management, Marketing and Graphic designing. Like the ever expanding <br>
+universe,we too keep extending our boundaries with an ultimate goal to encompass<br>
+everything you need under one roof.Kosmeo is an elevating firm with a futuristic<br>
+outlook to provide efficient services for finally alleviating the life of mankind.<br>
+At Kosmeo we don't just promise, we provide! So take a keen look into our website<br>
+for more details about our services.<br><br>
+<div style=" text-align: Center ; font-size: 30 ; color:black"> Welcome to Kosmeo.<br></div>
+<br><br><br>
+</div>
+<br>
+<br>
+<div id="map" style="width:1300px;height:400px;"></div>
+
+<div class="footer">
+
+ <div style="height:120px ; background-color:#444041 ; font-size:36px ; text-align: center ; text-shadow: 3px 2px Black ; text-decoration: overline ;  color:#00FFDD ; letter-spacing: 3px ; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif">
+<br><b>Find Us On</b>
+
+</div>
+
+<div style="height:170px ; background-color:#444041 ; font-size:18px ; text-align: center ; color:#00FFDD ; letter-spacing: 3px >
+Find Us On<br>
+<a href="https://www.facebook.com/srmmilan/"><img src="fb.png" alt="Facebook" style="width:45px;height:45px;"></a>
+<a href="https://twitter.com/login"><img src="tw.png" alt="Twitter" style="width:45px;height:45px;"></a>
+<a href="https://www.gmail.com"><img src="gm.png" alt="Gmail" style="width:45px;height:45px;"></a>
+<a href="https://in.linkedin.com/"><img src="ln.png" alt="linkedin" style="width:45px;height:45px;"></a>
+<a href="https://www.instagram.com/srmmilan/?hl=en"><img src="in.png" alt="instagram" style="width:45px;height:45px;"></a>
+<div style=" color: White ; fonts-size:10px">
+info@kosmeoweb.com
+</div>
+<br><br><br><br><br>
+
+
+</div>
+</div>
+
+</body>
+<script>
+      function initMap() {
+        var uluru = {lat: 12.823105, lng: 80.045280 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAI5Am3DGlEb1hVMm2oGtf745bHqVTqBWo&callback=initMap">
+    </script>
+</html>
